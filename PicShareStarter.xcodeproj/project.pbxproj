@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0F95421E311643000E350D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F95411E311643000E350D /* AppDelegate.swift */; };
+		3F0F95441E311643000E350D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F95431E311643000E350D /* ViewController.swift */; };
+		3F0F95471E311643000E350D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F95451E311643000E350D /* Main.storyboard */; };
+		3F0F95491E311643000E350D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F95481E311643000E350D /* Assets.xcassets */; };
+		3F0F954C1E311643000E350D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F954A1E311643000E350D /* LaunchScreen.storyboard */; };
+		3F0F95571E311644000E350D /* PicShareStarterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F95561E311644000E350D /* PicShareStarterTests.swift */; };
+		3F0F95621E311644000E350D /* PicShareStarterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F95611E311644000E350D /* PicShareStarterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F0F95531E311644000E350D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0F95361E311643000E350D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0F953D1E311643000E350D;
+			remoteInfo = PicShareStarter;
+		};
+		3F0F955E1E311644000E350D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0F95361E311643000E350D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0F953D1E311643000E350D;
+			remoteInfo = PicShareStarter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F0F953E1E311643000E350D /* PicShareStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicShareStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0F95411E311643000E350D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F0F95431E311643000E350D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F0F95461E311643000E350D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F0F95481E311643000E350D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0F954B1E311643000E350D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F0F954D1E311643000E350D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0F95521E311644000E350D /* PicShareStarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicShareStarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0F95561E311644000E350D /* PicShareStarterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicShareStarterTests.swift; sourceTree = "<group>"; };
+		3F0F95581E311644000E350D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0F955D1E311644000E350D /* PicShareStarterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicShareStarterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0F95611E311644000E350D /* PicShareStarterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicShareStarterUITests.swift; sourceTree = "<group>"; };
+		3F0F95631E311644000E350D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0F953B1E311643000E350D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0F954F1E311644000E350D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0F955A1E311644000E350D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0F95351E311643000E350D = {
+			isa = PBXGroup;
+			children = (
+				3F0F95401E311643000E350D /* PicShareStarter */,
+				3F0F95551E311644000E350D /* PicShareStarterTests */,
+				3F0F95601E311644000E350D /* PicShareStarterUITests */,
+				3F0F953F1E311643000E350D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F0F953F1E311643000E350D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F953E1E311643000E350D /* PicShareStarter.app */,
+				3F0F95521E311644000E350D /* PicShareStarterTests.xctest */,
+				3F0F955D1E311644000E350D /* PicShareStarterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0F95401E311643000E350D /* PicShareStarter */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F95411E311643000E350D /* AppDelegate.swift */,
+				3F0F95431E311643000E350D /* ViewController.swift */,
+				3F0F95451E311643000E350D /* Main.storyboard */,
+				3F0F95481E311643000E350D /* Assets.xcassets */,
+				3F0F954A1E311643000E350D /* LaunchScreen.storyboard */,
+				3F0F954D1E311643000E350D /* Info.plist */,
+			);
+			path = PicShareStarter;
+			sourceTree = "<group>";
+		};
+		3F0F95551E311644000E350D /* PicShareStarterTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F95561E311644000E350D /* PicShareStarterTests.swift */,
+				3F0F95581E311644000E350D /* Info.plist */,
+			);
+			path = PicShareStarterTests;
+			sourceTree = "<group>";
+		};
+		3F0F95601E311644000E350D /* PicShareStarterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F95611E311644000E350D /* PicShareStarterUITests.swift */,
+				3F0F95631E311644000E350D /* Info.plist */,
+			);
+			path = PicShareStarterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0F953D1E311643000E350D /* PicShareStarter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0F95661E311644000E350D /* Build configuration list for PBXNativeTarget "PicShareStarter" */;
+			buildPhases = (
+				3F0F953A1E311643000E350D /* Sources */,
+				3F0F953B1E311643000E350D /* Frameworks */,
+				3F0F953C1E311643000E350D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicShareStarter;
+			productName = PicShareStarter;
+			productReference = 3F0F953E1E311643000E350D /* PicShareStarter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F0F95511E311644000E350D /* PicShareStarterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0F95691E311644000E350D /* Build configuration list for PBXNativeTarget "PicShareStarterTests" */;
+			buildPhases = (
+				3F0F954E1E311644000E350D /* Sources */,
+				3F0F954F1E311644000E350D /* Frameworks */,
+				3F0F95501E311644000E350D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0F95541E311644000E350D /* PBXTargetDependency */,
+			);
+			name = PicShareStarterTests;
+			productName = PicShareStarterTests;
+			productReference = 3F0F95521E311644000E350D /* PicShareStarterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F0F955C1E311644000E350D /* PicShareStarterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0F956C1E311644000E350D /* Build configuration list for PBXNativeTarget "PicShareStarterUITests" */;
+			buildPhases = (
+				3F0F95591E311644000E350D /* Sources */,
+				3F0F955A1E311644000E350D /* Frameworks */,
+				3F0F955B1E311644000E350D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0F955F1E311644000E350D /* PBXTargetDependency */,
+			);
+			name = PicShareStarterUITests;
+			productName = PicShareStarterUITests;
+			productReference = 3F0F955D1E311644000E350D /* PicShareStarterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0F95361E311643000E350D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = HChlebek;
+				TargetAttributes = {
+					3F0F953D1E311643000E350D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					3F0F95511E311644000E350D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F0F953D1E311643000E350D;
+					};
+					3F0F955C1E311644000E350D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F0F953D1E311643000E350D;
+					};
+				};
+			};
+			buildConfigurationList = 3F0F95391E311643000E350D /* Build configuration list for PBXProject "PicShareStarter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F0F95351E311643000E350D;
+			productRefGroup = 3F0F953F1E311643000E350D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0F953D1E311643000E350D /* PicShareStarter */,
+				3F0F95511E311644000E350D /* PicShareStarterTests */,
+				3F0F955C1E311644000E350D /* PicShareStarterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F0F953C1E311643000E350D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0F954C1E311643000E350D /* LaunchScreen.storyboard in Resources */,
+				3F0F95491E311643000E350D /* Assets.xcassets in Resources */,
+				3F0F95471E311643000E350D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0F95501E311644000E350D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0F955B1E311644000E350D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0F953A1E311643000E350D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0F95441E311643000E350D /* ViewController.swift in Sources */,
+				3F0F95421E311643000E350D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0F954E1E311644000E350D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0F95571E311644000E350D /* PicShareStarterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0F95591E311644000E350D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0F95621E311644000E350D /* PicShareStarterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F0F95541E311644000E350D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0F953D1E311643000E350D /* PicShareStarter */;
+			targetProxy = 3F0F95531E311644000E350D /* PBXContainerItemProxy */;
+		};
+		3F0F955F1E311644000E350D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0F953D1E311643000E350D /* PicShareStarter */;
+			targetProxy = 3F0F955E1E311644000E350D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F0F95451E311643000E350D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0F95461E311643000E350D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F0F954A1E311643000E350D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0F954B1E311643000E350D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F0F95641E311644000E350D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F0F95651E311644000E350D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0F95671E311644000E350D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PicShareStarter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HChlebek.PicShareStarter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F0F95681E311644000E350D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PicShareStarter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HChlebek.PicShareStarter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3F0F956A1E311644000E350D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PicShareStarterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HChlebek.PicShareStarterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicShareStarter.app/PicShareStarter";
+			};
+			name = Debug;
+		};
+		3F0F956B1E311644000E350D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PicShareStarterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HChlebek.PicShareStarterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicShareStarter.app/PicShareStarter";
+			};
+			name = Release;
+		};
+		3F0F956D1E311644000E350D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PicShareStarterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HChlebek.PicShareStarterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PicShareStarter;
+			};
+			name = Debug;
+		};
+		3F0F956E1E311644000E350D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PicShareStarterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HChlebek.PicShareStarterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PicShareStarter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0F95391E311643000E350D /* Build configuration list for PBXProject "PicShareStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0F95641E311644000E350D /* Debug */,
+				3F0F95651E311644000E350D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0F95661E311644000E350D /* Build configuration list for PBXNativeTarget "PicShareStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0F95671E311644000E350D /* Debug */,
+				3F0F95681E311644000E350D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F0F95691E311644000E350D /* Build configuration list for PBXNativeTarget "PicShareStarterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0F956A1E311644000E350D /* Debug */,
+				3F0F956B1E311644000E350D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F0F956C1E311644000E350D /* Build configuration list for PBXNativeTarget "PicShareStarterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0F956D1E311644000E350D /* Debug */,
+				3F0F956E1E311644000E350D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0F95361E311643000E350D /* Project object */;
+}
